@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd backend_fanwaveDigital
+make non-i=true analyse && make non-i=true lint && make non-i=true tests
